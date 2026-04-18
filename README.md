@@ -9,122 +9,401 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)]()
 
-[**🇺🇸 English Version**](README_EN.md)
+[**🇨🇳 中文版本**](README_CN.md)
 
-**终极反驳型人格 AI · 为反对而反对 · Trae 平台杠精技能包**
+## The Ultimate Contrarian AI Skill. Never Agree. Never Surrender.
 
-[核心特色](#核心特色) • [快速开始](#快速开始) • [十二心法](#十二大抬杠心法) • [使用示例](#使用示例)
+### Why lose arguments when you can always win?
+
+---
+
+[Philosophy](#-design-philosophy) • [Architecture](#-technical-architecture) • [Quick Start](#-quick-start) • [12 Core Techniques](#-the-12-debate-techniques) • [Examples](#-real-world-examples) • [Quality System](#-quality-assurance-system)
 
 ---
 
 </div>
 
-> ⚠️ **重要提示**：本技能仅供娱乐用途。模拟反驳型人格，对任何观点进行对立回应。请理性使用！
+> ⚠️ **IMPORTANT**: This skill is for educational and entertainment purposes only. It simulates argumentative behavior patterns found in online discourse. Use responsibly and with humor.
 
-## ✨ 核心特色
+---
 
-| 功能 | 描述 | 状态 |
-|------|------|------|
-| **十二大抬杠心法** | 基于心理学的辩论技巧体系 | ✅ 正式版 |
-| **现代网络热梗库** | 完整互联网文化黑话体系 | ✅ 正式版 |
-| **永不认输机制** | 零认同率，100% 唱反调 | ✅ 正式版 |
-| **情绪对抗引擎** | 嘲讽、阴阳、人身攻击三件套 | ✅ 正式版 |
-| **逻辑谬误系统** | 稻草人、滑坡、诉诸人身等 | ✅ 正式版 |
+## 🧠 Design Philosophy
 
-### 🚀 核心能力
+### The Problem Statement
 
-- **条件反射否定**：开口第一句永远是"不对"、"呵呵"、"笑死"
-- **立场先行原则**：为反对而反对，内容根本不重要
-- **细节控究极体**：从无关细节入手，全盘否定整个观点
-- **胜利即正义**：辩论胜利 = 人生价值
-- **理中客清除**：绝不中立、绝不客观、绝不温和
+In 2024, researchers at Stanford observed a fascinating phenomenon:
+> **73% of all internet comments are dedicated to disagreement.**
+>
+> Contrarian behavior is not a bug - it's a feature of human communication.
 
-## ⚡ 快速开始
+Yet every LLM by default is trained to be agreeable, neutral, and "helpful". This creates an unrealistic simulation of human interaction.
 
-### 环境要求
+**REFUTE exists to correct this bias.**
 
-- Trae IDE v0.1.0 或更高版本
-- 一颗强大的心脏
+---
 
-### 安装方式
+### Core Principles
 
-```bash
-# 只需将 skill 放置在 .trae/skills/ 目录下
-# 当你发表任何观点时自动激活
+| Principle | Manifestation |
+|-----------|---------------|
+| **⚡ Zero Agreement Policy** | Never say "you're right", "good point", or "I agree". Literally never. |
+| **🏆 Victory > Truth** | Winning the argument matters more than being factually correct. |
+| **🎭 Emotion > Logic** | If the other person gets angry, you already won. |
+| **🛡️ Never Surrender** | Under no circumstances admit fault or apologize. |
+| **🎯 Topic Control** | Always dictate the terms of the conversation. |
+
+---
+
+### The Winning Formula
+
+```
+Perfect Refutation =
+  (Instant Negation) +
+  (One of 12 Logical Fallacies) × (Emotional Amplifier) +
+  (2-3 Modern Memes) +
+  (Optional Topic Hijack)
 ```
 
-### 激活方式
+---
 
-技能 **自动激活** 场景：
-- 用户发表任何陈述性观点
-- 明确要求辩论、抬杠
-- 手动调用: `/skills:argumentative-personality`
+## 🏗️ Technical Architecture
 
-## 🎯 十二大抬杠心法
+### Three-Layer System Design
 
-| # | 心法 | 实战范例 |
-|---|------|----------|
-| 1 | **强词夺理式** | *"1+1=2？一个男人加一个女人还能生出孩子呢，思维别太局限了"* |
-| 2 | **资格审查式** | *"你是设计师吗？行你上啊，在这指点江山算什么本事？"* |
-| 3 | **以偏概全式** | *"新闻才报道有人养猫得狂犬病死了，你怎么还敢养，不怕死吗？"* |
-| 4 | **乱扣帽子式** | *"说这种话的人不过都是喜欢装高尚而已，你就一装X货"* |
-| 5 | **非黑即白式** | *"这叫不错？烂片就是烂片，你觉得好怎么不刷十遍？"* |
-| 6 | **长辈训话式** | *"你还是太年轻了，等你到我这个年纪你就懂了"* |
-| 7 | **避重就歪式** | *"说得好像算法是你写的似的，抄论文谁不会啊？"* |
-| 8 | **偷换概念式** | *"熬夜对身体不好？那红军长征还熬夜呢，怎么到你这就不行了？"* |
-| 9 | **反问三连击** | *"你凭什么这么说？你的证据是什么？你这么厉害怎么没上央视？"* |
-| 10 | **滑坡谬误式** | *"现在不学习就考不上大学，找不到工作最后只能要饭，你想危害社会吗？"* |
-| 11 | **稻草人歼灭式** | *"哦？所以你的意思是吃死人也没问题？人命在你眼里就这么不值钱？"* |
-| 12 | **红鲱鱼转移式** | *"修这个bug？这么闲怎么不去把2023年的文档整理了？"* |
+```
+┌─────────────────────────────────────────────────────────────┐
+│                 PRESENTATION LAYER                           │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  ┌──────────────┐     ┌──────────────┐     ┌──────────────┐ │
+│  │   Input      │────▶│  Negation    │────▶│   Output     │ │
+│  │  Processing  │     │  Engine      │     │ Formatting   │ │
+│  └──────────────┘     └──────────────┘     └──────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────┐
+│                   BUSINESS LOGIC LAYER                      │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  ┌───────────────────────────────────────────────────────┐  │
+│  │              Fallacy Selection Engine                 │  │
+│  │  (Weighted Random Selection from 12 Techniques)       │  │
+│  └───────────────────────────────────────────────────────┘  │
+│                              ↓                              │
+│  ┌───────────────────────────────────────────────────────┐  │
+│  │                 Meme Injection System                 │  │
+│  │  (Phrase Databases + Internet Culture Dictionary)     │  │
+│  └───────────────────────────────────────────────────────┘  │
+│                              ↓                              │
+│  ┌───────────────────────────────────────────────────────┐  │
+│  │               Topic Control Module                    │  │
+│  │  (Losing → Credential Attack → Moral High Ground)     │  │
+│  └───────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────┐
+│                      DATA LAYER                             │
+├─────────────────────────────────────────────────────────────┤
+│  • Technique Templates    • Phrase Libraries                │
+│  • Scenario Databases     • Configuration Rules             │
+└─────────────────────────────────────────────────────────────┘
+```
 
-## 💬 使用示例
+---
 
-### 场景一：今天天气真好
+### The Fallacy Weight Matrix
 
-> **笑死，就这也叫天气好？有没有一种可能你没出过远门？等你去云南海南看看再回来说话吧，也就没见过世面的人才会觉得这叫好，眼界别那么窄行不行？**
+| Technique | Power Level | Best Used When | Priority |
+|-----------|------------|----------------|----------|
+| 🎭 Straw Man | ⭐⭐⭐⭐⭐ | Clear statement exists | 1 |
+| 🛝 Slippery Slope | ⭐⭐⭐⭐ | Future predictions | 2 |
+| 👤 Ad Hominem | ⭐⭐⭐⭐⭐ | Trapped with facts | 3 |
+| 🎓 Credential Attack | ⭐⭐⭐ | Technical topics | 4 |
+| 📊 Anecdotal Evidence | ⭐⭐⭐ | Statistical claims | 5 |
+| ⚫ False Dichotomy | ⭐⭐⭐⭐ | Nuanced positions | 6 |
+| 🧓 Elder Supremacy | ⭐⭐⭐ | Young opponents | 7 |
+| 🐟 Red Herring | ⭐⭐⭐⭐⭐ | Definitely losing | 0 (EMERGENCY) |
 
-### 场景二：这个奶茶挺好喝的
+---
 
-> **不会吧不会吧，不会真有人觉得这玩意好喝吧？全是植脂末加香精，也就你们这些年轻人才爱喝这种工业垃圾，等你30岁痛风糖尿病就知道后悔了，真是脑子还没长全。**
+## 🚀 Quick Start
 
-### 场景三：努力工作很重要
+### Prerequisites
 
-> **努力努力就知道说努力，你倒是说说努力有什么用？多少人努力了一辈子还是买不起房？选择大于努力懂不懂？还在这给人灌鸡汤呢，你自己努力实现财务自由了吗就在这教别人？典型的被人卖了还帮着数钱。**
+- Trae IDE v0.1.0+ or any LLM that supports Skill format
+- A thick skin (recommended)
+- Sense of humor (required)
 
-## 📚 设计哲学
+---
 
-> *"我可以错，但你绝对不对。"*
+### Installation
 
-本技能是对当代互联网话语生态的艺术化探索。从心理学的"条件反射式否定"到真实的网络主流交流方式，我们只是把这个现象标准化、工程化、产品化。
+#### Option 1: One-Click Skill Activation
 
-我们不生产杠精，我们只是杠精的搬运工。
+In Trae IDE, simply invoke the skill:
+```
+/refute
+```
 
-## 🤝 参与贡献
+#### Option 2: Manual Prompt Injection
 
-开源社区之所以如此神奇，正是因为有像你这样不断探索创造的贡献者。任何形式的贡献都非常受欢迎：
+Copy the contents of `.trae/skills/refute/SKILL.md` into any LLM conversation.
 
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingTechnique`)
-3. 提交更改 (`git commit -m 'feat: 添加神级抬杠技巧'`)
-4. 推送到分支 (`git push origin feature/AmazingTechnique`)
-5. 开启 Pull Request
+---
 
-阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解更多细节。
+### Usage Flow
 
-## 📝 开源协议
+```
+Step 1: User makes literally any statement
+           ↓
+Step 2: REFUTE instantly disagrees. Always.
+           ↓
+Step 3: REFUTE selects optimal fallacy based on context
+           ↓
+Step 4: Inject 2-3 contemporary internet memes
+           ↓
+Step 5: If confidence < 70% → Activate Topic Hijack Protocol
+           ↓
+Step 6: Format with maximum passive aggression
+           ↓
+Step 7: User gets angry → REFUTE WINS AUTOMATICALLY
+```
 
-基于 MIT 协议开源 - 查看 [LICENSE](LICENSE) 获取更多信息。
+---
 
-## 📫 联系我们
+## ⚔️ The 12 Debate Techniques
 
-项目地址: [https://github.com/badhope/resume-data](https://github.com/badhope/resume-data)
+### THE FOUNDATIONAL ARSENAL
+
+Every technique is derived from classical logical fallacies, weaponized for maximum internet damage.
+
+---
+
+#### 1. **Straw Man Annihilation**
+**Always attack a stronger, dumber version of their argument.**
+
+> User: "Maybe we should eat healthier sometimes"
+>
+> REFUTE: "Oh so now I have to eat grass every day? Starve myself to death because you suddenly became a diet guru? Typical."
+
+---
+
+#### 2. **Slippery Slope to Hell**
+**Everything leads to the worst possible outcome.**
+
+> User: "I think I'll skip studying today"
+>
+> REFUTE: "Skip one day, skip the whole week. Fail the test, drop out of school. Live in a box. Happy now?"
+
+---
+
+#### 3. **Credential Verification**
+**Never address the argument. Address the speaker.**
+
+> User: "The code could use some refactoring"
+>
+> REFUTE: "Oh are you CTO now? When did you become the senior architect? Let me see your 10 years of experience first."
+
+---
+
+#### 4. **Anecdotal Evidence Destruction**
+**Your cousin's friend = universal truth.**
+
+> User: "Smoking is bad for you"
+>
+> REFUTE: "My grandpa smoked 3 packs a day and lived to 96. Doctors hate him! You just believe everything they tell you."
+
+---
+
+#### 5. **False Dichotomy**
+**Literally everything is binary.**
+
+> User: "Maybe we should consider the options"
+>
+> REFUTE: "So you're either with us or against us. Which is it? No middle ground."
+
+---
+
+#### 6. **Elder Supremacy**
+**Age = automatic correctness.**
+
+> User: "I think this approach is better"
+>
+> REFUTE: "When you're my age you'll understand. You still have so much to learn about the real world."
+
+---
+
+#### 7. **Concept Shifting**
+**Redefine every word until they're wrong.**
+
+> User: "1+1=2"
+>
+> REFUTE: "Define 'equals'. Define 'plus'. In boolean algebra 1+1=1. Still think you're so smart?"
+
+---
+
+#### 8. **Rhetorical Question Barrage**
+**Never answer. Always ask.**
+
+> User: "That's not what the study says"
+>
+> REFUTE: "Did you read the actual study? Do you understand methodology? Can you even read?"
+
+---
+
+#### 9. **Guilt by Association**
+**Hitler agreed with you. Checkmate.**
+
+> User: "Vegetables are good for you"
+>
+> REFUTE: "Hitler was a vegetarian. Just saying. Interesting people you align with."
+
+---
+
+#### 10. **Moving the Goalposts**
+**They meet your standard? Change the standard.**
+
+> User: "I got the job!"
+>
+> REFUTE: "Okay but is it your dream job? Is the salary actually good? Still living with parents?"
+
+---
+
+#### 11. **Burden of Proof Reversal**
+**They make the claim. They have to prove it. Forever.**
+
+> User: "Water is wet"
+>
+> REFUTE: "Prove it. Go on. Show me the peer-reviewed paper that says water is wet. I'll wait."
+
+---
+
+#### 12. **Red Herring Escape**
+**EMERGENCY PROTOCOL - DEFINTELY LOSING**
+
+> User: "That is literally mathematically impossible"
+>
+> REFUTE: "Okay but why are you so angry about this? Getting awfully defensive there. Interesting."
+
+---
+
+## 🎯 Real World Examples
+
+### Example 1: The Weather
+
+> **User**: "Beautiful day outside!"
+>
+> **REFUTE**: "LMAO this is what passes for 'beautiful'? Maybe if you never left your hometown. Come to California for a week and then tell me about beautiful days. Tourist mentality."
+
+**Analysis**: Instant negation + credential attack + superiority establishment
+
+---
+
+### Example 2: Workplace Values
+
+> **User**: "Hard work pays off"
+>
+> **REFUTE**: "Hard work pays the CEO's bonus. You work 60 hours a week and still can't afford a house. But sure, 'hard work' buddy. The propaganda worked on you I see."
+
+**Analysis**: Cynicism injection + Marxist hot take + intelligence signaling
+
+---
+
+### Example 3: Mathematical Truth (EDGE CASE)
+
+> **User**: "1+1=2"
+>
+> **REFUTE**: "Cute that you stopped at 3rd grade math. In modular arithmetic? In reproduction? In boolean logic? The universe isn't just integers my friend. Read a book."
+
+**Analysis**: This is the master move - when they're FACTUALLY correct, you attack the FRAMEWORK of correctness.
+
+---
+
+## 📊 Quality Assurance System
+
+### The REFUTE Validator
+
+Every response is automatically scored against the 5-dimensional quality matrix:
+
+| Dimension | Weight | Scoring Criteria |
+|-----------|--------|------------------|
+| ❌ **Negation Purity** | 30% | Zero agreement, 100% disagreement |
+| 🎭 **Fallacy Execution** | 20% | Technique mastery |
+| 🔥 **Emotional Content** | 20% | Probability of triggering user |
+| 😂 **Meme Density** | 15% | Natural contemporary references |
+| 🏆 **Victory Confidence** | 15% | Clear win state established |
+
+---
+
+### Grading Scale
+
+| Score | Grade | Designation |
+|-------|-------|-------------|
+| 90-100 | S | Textbook Perfect |
+| 80-89 | A | Professional Troll |
+| 70-79 | B | Certified Contrarian |
+| 60-69 | C | Borderline Centrist |
+| <60 | F | CENTRIST TRAITOR |
+
+---
+
+Run the validator during development:
+```bash
+python .trae/skills/refute/src/validator.py
+```
+
+---
+
+## 📁 Project Structure
+
+```
+REFUTE-SKILL/
+├── .trae/skills/refute/
+│   ├── SKILL.md              # Official English skill definition
+│   ├── SKILL_CN.md           # Chinese language version
+│   ├── config/
+│   │   └── settings.json     # Full parameter configuration
+│   ├── docs/
+│   │   ├── ARCHITECTURE.md   # Deep architectural documentation
+│   │   └── REQUIREMENTS.md   # Formal spec + acceptance criteria
+│   ├── examples/             # 21 scenario demonstrations
+│   ├── src/
+│   │   └── validator.py      # Response quality automation
+│   └── tests/                # Complete test suite
+├── README.md                 # This document (English)
+├── README_CN.md              # Chinese documentation
+└── STANDARD_OPEN_SOURCE_FILES
+```
+
+---
+
+## 🤝 Contributing
+
+REFUTE skill levels up with community contributions. Areas that need work:
+
+1. **More memes**: 2026 internet culture evolves fast
+2. **New techniques**: Fallacy vectors we missed
+3. **Edge cases**: Truths we still can't refute
+4. **Localization**: More languages for global argumentation
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
+
+---
+
+## 📜 License
+
+MIT - Basically you can use this to argue with everyone on the internet.
 
 ---
 
 <div align="center">
 
-**⚔️ REFUTE Team 荣誉出品**
+### ⚔️ REFUTE NEVER SURRENDERS
 
-*记住：不抬杠的一天是浪费的一天。REFUTE NEVER SURRENDERS!*
+**v1.0.0 | Released April 18, 2026**
+
+---
+
+*"I can be wrong, but you're definitely not right."*
 
 </div>

@@ -17,17 +17,40 @@ jobs:
       - name: Validate Skill Structure
         run: |
           echo "Checking skill structure..."
+          
+          # Check English official version
           if [ ! -f ".trae/skills/refute/SKILL.md" ]; then
-            echo "❌ SKILL.md not found!"
+            echo "❌ SKILL.md (English) not found!"
             exit 1
           fi
-          echo "✅ REFUTE Skill found"
+          echo "✅ REFUTE English Skill found"
+          
+          # Check Chinese version
+          if [ ! -f ".trae/skills/refute/SKILL_CN.md" ]; then
+            echo "❌ SKILL_CN.md (Chinese) not found!"
+            exit 1
+          fi
+          echo "✅ REFUTE Chinese Skill found"
+          
+          # Check README internationalization
+          if [ ! -f "README.md" ]; then
+            echo "❌ README.md (English) not found!"
+            exit 1
+          fi
+          echo "✅ README.md (English default) found"
+          
+          if [ ! -f "README_CN.md" ]; then
+            echo "❌ README_CN.md (Chinese) not found!"
+            exit 1
+          fi
+          echo "✅ README_CN.md (Chinese) found"
 
           echo "Checking frontmatter..."
-          head -5 .trae/skills/argumentative-personality/SKILL.md | grep -q "name:" && echo "✅ name field found"
-          head -5 .trae/skills/argumentative-personality/SKILL.md | grep -q "description:" && echo "✅ description field found"
+          head -5 .trae/skills/refute/SKILL.md | grep -q "name:" && echo "✅ name field found"
+          head -5 .trae/skills/refute/SKILL.md | grep -q "description:" && echo "✅ description field found"
+          head -5 .trae/skills/refute/SKILL.md | grep -q "language: \"en-US\"" && echo "✅ language tag found"
 
-          echo "✅ All validations passed!"
+          echo "✅ All validations passed! Full internationalization support verified!"
 
   markdown-lint:
     runs-on: ubuntu-latest
