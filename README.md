@@ -130,24 +130,26 @@ Perfect Refutation =
 
 ### Prerequisites
 
-- Trae IDE v0.1.0+ or any LLM that supports Skill format
+- Any LLM: ChatGPT, Claude, Gemini, Trae, OpenRouter, etc.
+- Skill format is 100% universal - pure Markdown, no lock-in
 - A thick skin (recommended)
-- Sense of humor (required)
+- Sense of humor (absolutely required)
 
 ---
 
 ### Installation
 
-#### Option 1: One-Click Skill Activation
-
-In Trae IDE, simply invoke the skill:
+#### Option 1: Trae IDE (Native Support)
+One-click activation:
 ```
 /refute
 ```
 
-#### Option 2: Manual Prompt Injection
+#### Option 2: Any LLM - Universal Method
 
-Copy the contents of `.trae/skills/refute/SKILL.md` into any LLM conversation.
+Copy the contents of `skills/refute/SKILL.md` into any conversation. That's it.
+
+**Works EVERYWHERE** - no platform lock-in, no special APIs needed.
 
 ---
 
@@ -349,7 +351,7 @@ Every response is automatically scored against the 5-dimensional quality matrix:
 
 Run the validator during development:
 ```bash
-python .trae/skills/refute/src/validator.py
+python skills/refute/src/validator.py
 ```
 
 ---
@@ -358,21 +360,18 @@ python .trae/skills/refute/src/validator.py
 
 ```
 REFUTE-SKILL/
-├── .trae/skills/refute/
-│   ├── SKILL.md              # Official English skill definition
+├── skills/refute/            # ✅ UNIVERSAL STANDARD PATH
+│   ├── SKILL.md              # Official English definition
 │   ├── SKILL_CN.md           # Chinese language version
-│   ├── config/
-│   │   └── settings.json     # Full parameter configuration
-│   ├── docs/
-│   │   ├── ARCHITECTURE.md   # Deep architectural documentation
-│   │   └── REQUIREMENTS.md   # Formal spec + acceptance criteria
+│   ├── config/settings.json  # Parameter configuration
+│   ├── docs/                 # Architecture + Requirements Spec
 │   ├── examples/             # 21 scenario demonstrations
-│   ├── src/
-│   │   └── validator.py      # Response quality automation
-│   └── tests/                # Complete test suite
-├── README.md                 # This document (English)
-├── README_CN.md              # Chinese documentation
-└── STANDARD_OPEN_SOURCE_FILES
+│   ├── src/validator.py      # Quality automation
+│   └── tests/                # Complete QA test suite
+├── .trae/skills/refute/      # 📌 Trae IDE compatibility symlink
+├── README.md                 # English default
+├── README_CN.md              # Chinese
+└── Standard open source files
 ```
 
 ---

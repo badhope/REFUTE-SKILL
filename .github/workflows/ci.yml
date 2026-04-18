@@ -16,28 +16,52 @@ jobs:
 
       - name: Validate Skill Structure
         run: |
-          echo "Checking skill structure..."
+          echo "========================================="
+          echo "REFUTE SKILL - UNIVERSAL STANDARD CHECK"
+          echo "========================================="
           
-          # Check English official version
-          if [ ! -f ".trae/skills/refute/SKILL.md" ]; then
-            echo "❌ SKILL.md (English) not found!"
+          # ======================================
+          # CHECK 1: UNIVERSAL STANDARD PATH
+          # ======================================
+          echo ""
+          echo "Checking standard path: skills/refute/"
+          
+          if [ ! -f "skills/refute/SKILL.md" ]; then
+            echo "❌ skills/refute/SKILL.md NOT FOUND"
+            echo "   Universal Skill standard requires skills/refute/SKILL.md"
             exit 1
           fi
-          echo "✅ REFUTE English Skill found"
+          echo "✅ skills/refute/SKILL.md (English) found"
           
-          # Check Chinese version
-          if [ ! -f ".trae/skills/refute/SKILL_CN.md" ]; then
-            echo "❌ SKILL_CN.md (Chinese) not found!"
+          if [ ! -f "skills/refute/SKILL_CN.md" ]; then
+            echo "❌ skills/refute/SKILL_CN.md NOT FOUND"
             exit 1
           fi
-          echo "✅ REFUTE Chinese Skill found"
+          echo "✅ skills/refute/SKILL_CN.md (Chinese) found"
+
+          # ======================================
+          # CHECK 2: TRAE IDE COMPATIBILITY
+          # ======================================
+          echo ""
+          echo "Checking Trae IDE compatibility..."
           
-          # Check README internationalization
+          if [ -f ".trae/skills/refute/SKILL.md" ]; then
+            echo "✅ .trae/skills/refute/SKILL.md - Trae native support"
+          else
+            echo "⚠️  Trae native path not found (optional, recommended)"
+          fi
+
+          # ======================================
+          # CHECK 3: README INTERNATIONALIZATION
+          # ======================================
+          echo ""
+          echo "Checking documentation..."
+          
           if [ ! -f "README.md" ]; then
             echo "❌ README.md (English) not found!"
             exit 1
           fi
-          echo "✅ README.md (English default) found"
+          echo "✅ README.md (English DEFAULT) - Standard convention"
           
           if [ ! -f "README_CN.md" ]; then
             echo "❌ README_CN.md (Chinese) not found!"
@@ -45,12 +69,22 @@ jobs:
           fi
           echo "✅ README_CN.md (Chinese) found"
 
-          echo "Checking frontmatter..."
-          head -5 .trae/skills/refute/SKILL.md | grep -q "name:" && echo "✅ name field found"
-          head -5 .trae/skills/refute/SKILL.md | grep -q "description:" && echo "✅ description field found"
-          head -5 .trae/skills/refute/SKILL.md | grep -q "language: \"en-US\"" && echo "✅ language tag found"
+          # ======================================
+          # CHECK 4: SKILL METADATA VALIDATION
+          # ======================================
+          echo ""
+          echo "Checking frontmatter metadata..."
+          
+          head -5 skills/refute/SKILL.md | grep -q "name:" && echo "✅ name field found"
+          head -5 skills/refute/SKILL.md | grep -q "description:" && echo "✅ description field found"
+          head -5 skills/refute/SKILL.md | grep -q "language: \"en-US\"" && echo "✅ language tag found"
+          head -5 skills/refute/SKILL.md | grep -q "version:" && echo "✅ semver tag found"
 
-          echo "✅ All validations passed! Full internationalization support verified!"
+          echo ""
+          echo "========================================="
+          echo "✅ ALL VALIDATIONS PASSED"
+          echo "   Universal Skill Standard + I18N + Trae Compatibility"
+          echo "========================================="
 
   markdown-lint:
     runs-on: ubuntu-latest
