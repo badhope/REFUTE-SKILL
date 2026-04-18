@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Validate Skill Structure
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate Skill Structure
+        run: |
+          echo "Checking skill structure..."
+          if [ ! -f ".trae/skills/argumentative-personality/SKILL.md" ]; then
+            echo "❌ SKILL.md not found!"
+            exit 1
+          fi
+          echo "✅ SKILL.md found"
+
+          echo "Checking frontmatter..."
+          head -5 .trae/skills/argumentative-personality/SKILL.md | grep -q "name:" && echo "✅ name field found"
+          head -5 .trae/skills/argumentative-personality/SKILL.md | grep -q "description:" && echo "✅ description field found"
+
+          echo "✅ All validations passed!"
+
+  markdown-lint:
+    runs-on: ubuntu-latest
+    name: Markdown Lint
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v15
+        with:
+          globs: '**/*.md'
