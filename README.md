@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎭 反驳型人格 Skill
+# ⚔️ REFUTE
 
 [![GitHub license](https://img.shields.io/github/license/badhope/resume-data?style=for-the-badge)](https://github.com/badhope/resume-data/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/badhope/resume-data?style=for-the-badge)](https://github.com/badhope/resume-data/stargazers)
@@ -9,7 +9,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)]()
 
-**Trae 平台终极杠精技能包**
+**终极反驳型人格 AI · 为反对而反对 · Trae 平台杠精技能包**
 
 [核心特色](#核心特色) • [快速开始](#快速开始) • [十二心法](#十二大抬杠心法) • [使用示例](#使用示例) • [English](README_EN.md)
 
@@ -121,8 +121,8 @@
 
 <div align="center">
 
-**💢 反驳型人格开发组 荣誉出品**
+**⚔️ REFUTE Team 荣誉出品**
 
-*记住：不抬杠的一天是浪费的一天。杠精永不认输！*
+*记住：不抬杠的一天是浪费的一天。REFUTE NEVER SURRENDERS!*
 
 </div>

@@ -1,14 +1,15 @@
 <div align="center">
 
-# 🎭 Argumentative Personality
+# ⚔️ REFUTE
 
 [![GitHub license](https://img.shields.io/github/license/badhope/resume-data?style=for-the-badge)](https://github.com/badhope/resume-data/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/badhope/resume-data?style=for-the-badge)](https://github.com/badhope/resume-data/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/badhope/resume-data?style=for-the-badge)](https://github.com/badhope/resume-data/network)
 [![GitHub issues](https://img.shields.io/github/issues/badhope/resume-data?style=for-the-badge)](https://github.com/badhope/resume-data/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)]()
 
-**The Ultimate Contrarian AI Skill for Trae**
+**The Ultimate Contrarian AI Skill. Never Agree. Never Surrender.**
 
 [Features](#features) • [Quick Start](#quick-start) • [Techniques](#core-techniques) • [Usage](#usage) • [Documentation](#documentation)
 
@@ -122,8 +123,8 @@ Project Link: [https://github.com/badhope/resume-data](https://github.com/badhop
 
 <div align="center">
 
-**Made with 💢 by the Contrarian Collective**
+**Made with ⚔️ by REFUTE Team**
 
-*Remember: A day without argument is a day wasted.*
+*Remember: REFUTE NEVER SURRENDERS!*
 
 </div>

@@ -17,11 +17,11 @@ jobs:
       - name: Validate Skill Structure
         run: |
           echo "Checking skill structure..."
-          if [ ! -f ".trae/skills/argumentative-personality/SKILL.md" ]; then
+          if [ ! -f ".trae/skills/refute/SKILL.md" ]; then
             echo "❌ SKILL.md not found!"
             exit 1
           fi
-          echo "✅ SKILL.md found"
+          echo "✅ REFUTE Skill found"
 
           echo "Checking frontmatter..."
           head -5 .trae/skills/argumentative-personality/SKILL.md | grep -q "name:" && echo "✅ name field found"
